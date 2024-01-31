@@ -13,10 +13,10 @@ const HeroSection = () => {
                                 >Hello I'm</span>
                                 <h1
                                 data-aos="fade-in"  data-aos-duration={1200} data-aos-delay={200}
-                                >Kathleen Lavelle</h1>
+                                >Bilal shafeeQ</h1>
                                 <h4
                                 data-aos="fade-in" data-aos-duration={1200} data-aos-delay={300}
-                                >Digital Product Designer</h4>
+                                >Mern Stack Developer</h4>
                                 <p
                                 data-aos="fade-in" data-aos-duration={1200} data-aos-delay={400}
                                 >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
