@@ -29,7 +29,6 @@ const App = () => {
 
   return (
     <>
-    <ConfettiAnimation/>
       <Navbar />
       <HeroSection />
       <MyExpertise />
@@ -42,6 +41,7 @@ const App = () => {
       <Form />
       <GoToTop />
       <Footer />
+      <ConfettiAnimation/>
     </>
   )
 }
