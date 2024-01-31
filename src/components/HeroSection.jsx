@@ -29,7 +29,7 @@ const HeroSection = () => {
                             <div className="personal-portfolio-banner-image"
                             data-aos="fade-up" data-aos-duration={1200} data-aos-delay={600}
                             >
-                                <img src="/images/banner-profile.jpg" alt="image" />
+                                <img src="/images/banner-profile.webp" alt="image" />
                             </div>
                         </div>
                     </div>
