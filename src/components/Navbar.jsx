@@ -26,7 +26,7 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-md">
           <div className="container">
             <a className="navbar-brand" href="/">
-              <img src="/images/logo.png" alt="logo" />
+              <img src="/images/logo.webp" alt="logo" />
             </a>
             <button onClick={() => setHamburgerList(!hamburgerList)} 
             className="navbar-toggler collapsed" type="button">

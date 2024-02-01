@@ -7,7 +7,7 @@ const Form = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
-              <div className="contact-img"><img src="/images/contact.jpg" alt="Contact" /></div>
+              <div className="contact-img"><img src="/images/contact.webp" alt="Contact" /></div>
             </div>
             <div className="col-lg-6">
               <div className="contact-form">

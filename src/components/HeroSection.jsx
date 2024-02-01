@@ -35,7 +35,7 @@ const HeroSection = () => {
                     </div>
                 </div>
                 <div className="pp-shape1">
-                    <img src="/images/shape1.png" alt="image" />
+                    <img src="/images/shape1.webp" alt="image" />
                 </div>
             </div>
         </div>

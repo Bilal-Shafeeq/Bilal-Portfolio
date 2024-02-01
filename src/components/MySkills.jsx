@@ -15,27 +15,27 @@ const MySkills = () => {
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="pp-skills-box" 
               data-aos="fade-in" data-aos-duration={1200} data-aos-delay={200}
-              ><img src="/images/skills-img1.png" alt="image" />
+              ><img src="/images/skills-img1.webp" alt="image" />
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="pp-skills-box" 
               data-aos="fade-in" data-aos-duration={1200} data-aos-delay={300}
               >
-              <img src="/images/skills-img2.png" alt="image" />
+              <img src="/images/skills-img2.webp" alt="image" />
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="pp-skills-box" 
               data-aos="fade-in" data-aos-duration={1200} data-aos-delay={400}
               >
-              <img src="/images/skills-img3.png" alt="image" />
+              <img src="/images/skills-img3.webp" alt="image" />
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="pp-skills-box" 
               data-aos="fade-in" data-aos-duration={1200} data-aos-delay={500}
-              ><img src="/images/skills-img4.png" alt="image" />
+              ><img src="/images/skills-img4.webp" alt="image" />
               </div>
             </div>
           </div>

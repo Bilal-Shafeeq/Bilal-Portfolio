@@ -16,7 +16,7 @@ const MyAllProjects = () => {
               <div className="pp-works-box"
                 data-aos="fade-up" data-aos-duration={1200} data-aos-delay={100}
               >
-                <img src="/images/project-img1.jpg" alt="image" />
+                <img src="/images/project-img1.webp" alt="image" />
                 <h3>Startup Business</h3>
                 <a className="link-btn" href="#" />
               </div>
@@ -25,7 +25,7 @@ const MyAllProjects = () => {
               <div className="pp-works-box"
               data-aos="fade-up" data-aos-duration={1200} data-aos-delay={200}
               >
-                <img src="/images/project-img2.jpg" alt="image" />
+                <img src="/images/project-img2.webp" alt="image" />
                 <h3>App Landing</h3>
                 <a className="link-btn" href="#" />
               </div>
@@ -34,7 +34,7 @@ const MyAllProjects = () => {
               <div className="pp-works-box"
               data-aos="fade-up" data-aos-duration={1200} data-aos-delay={300}
               >
-                <img src="/images/project-img3.jpg" alt="image" />
+                <img src="/images/project-img3.webp" alt="image" />
                 <h3>Digital Marketing</h3>
                 <a className="link-btn" href="#" />
               </div>
@@ -43,7 +43,7 @@ const MyAllProjects = () => {
               <div className="pp-works-box"
               data-aos="fade-up" data-aos-duration={1200} data-aos-delay={400}
               >
-                <img src="/images/project-img4.jpg" alt="image" />
+                <img src="/images/project-img4.webp" alt="image" />
                 <h3>Business Startup</h3>
                 <a className="link-btn" href="#" />
               </div>
@@ -52,7 +52,7 @@ const MyAllProjects = () => {
               <div className="pp-works-box"
               data-aos="fade-up" data-aos-duration={1200} data-aos-delay={500}
               >
-                <img src="/images/project-img5.jpg" alt="image" />
+                <img src="/images/project-img5.webp" alt="image" />
                 <h3>Digital Agency</h3>
                 <a className="link-btn" href="#" />
               </div>
@@ -60,7 +60,7 @@ const MyAllProjects = () => {
             <div className="col-lg-4 col-sm-6 col-md-6">
               <div className="pp-works-box"
               data-aos="fade-up" data-aos-duration={1200} data-aos-delay={600}
-              ><img src="/images/project-img6.jpg" alt="image" />
+              ><img src="/images/project-img6.webp" alt="image" />
                 <h3>Blog Business</h3>
                 <a className="link-btn" href="#" />
               </div>
