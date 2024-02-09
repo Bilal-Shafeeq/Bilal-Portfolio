@@ -51,7 +51,7 @@ const MyBestClients = () => {
     autoplay: true,
     autoplaySpeed: 2000,
 
-    // Responsive k liya
+    // For Responsive
     responsive: [
       {
         breakpoint: 1024,
