@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaChevronRight } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 
 const MyAllProjects = () => {
@@ -18,7 +19,7 @@ const MyAllProjects = () => {
               >
                 <img src="/images/project-img1.webp" alt="image" />
                 <h3>Startup Business</h3>
-                <a className="link-btn" href="#" />
+                <Link className="link-btn" to="/" />
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 col-md-6">
@@ -27,7 +28,7 @@ const MyAllProjects = () => {
               >
                 <img src="/images/project-img2.webp" alt="image" />
                 <h3>App Landing</h3>
-                <a className="link-btn" href="#" />
+                <Link className="link-btn" to="/" />
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 col-md-6">
@@ -36,7 +37,7 @@ const MyAllProjects = () => {
               >
                 <img src="/images/project-img3.webp" alt="image" />
                 <h3>Digital Marketing</h3>
-                <a className="link-btn" href="#" />
+                <Link className="link-btn" to="/" />
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 col-md-6">
@@ -45,7 +46,7 @@ const MyAllProjects = () => {
               >
                 <img src="/images/project-img4.webp" alt="image" />
                 <h3>Business Startup</h3>
-                <a className="link-btn" href="#" />
+                <Link className="link-btn" to="/" />
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 col-md-6">
@@ -54,7 +55,7 @@ const MyAllProjects = () => {
               >
                 <img src="/images/project-img5.webp" alt="image" />
                 <h3>Digital Agency</h3>
-                <a className="link-btn" href="#" />
+                <Link className="link-btn" to="/" />
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 col-md-6">
@@ -62,14 +63,14 @@ const MyAllProjects = () => {
               data-aos="fade-up" data-aos-duration={1200} data-aos-delay={600}
               ><img src="/images/project-img6.webp" alt="image" />
                 <h3>Blog Business</h3>
-                <a className="link-btn" href="#" />
+                <Link className="link-btn" to="/" />
               </div>
             </div>
             <div className="col-lg-12 col-sm-12 col-md-12">
               <div className="pp-works-box-btn">
-                <a className="default-btn-two" href="#">View More
+                <Link className="default-btn-two btnClickEffect" to="/">View More
                   <FaChevronRight style={{ marginLeft: "3px" }} />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
