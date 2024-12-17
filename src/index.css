@@ -772,6 +772,16 @@ span.new {
     top: 7px
 }
 
+/* Button click scale-down effect */
+.btnClickEffect {
+  display: inline-block;
+  transition: transform 0.1s ease-in-out;
+}
+
+.btnClickEffect:active {
+  transform: scale(0.95); /* Scale down effect on click */
+}
+
 /* -----------------------------------NavBar End---------------------------------------- */
 
 
@@ -1683,7 +1693,7 @@ a:hover {
 }
 
 .btn-primary {
-    color: #fff;
+    color: #fff !important;
     background-color: #fff;
     border: 1px solid #ff2c9c
 }
@@ -1703,31 +1713,18 @@ a:hover {
     transition: all .5s ease
 }
 
-.btn-primary:not(:disabled):not(.disabled).active:focus,
-.btn-primary:not(:disabled):not(.disabled):active:focus,
-.show>.btn-primary.dropdown-toggle:focus {
-    color: #ff2c9c;
-    box-shadow: unset;
-    background-color: transparent;
-    border-color: #ff2c9c
-}
 
-.btn-primary.disabled,
-.btn-primary:disabled {
-    color: #fff;
-    background-color: #fff;
-    border: 1px solid #ff2c9c
-}
 
-.btn-primary:focus,
+
+
 .btn-primary:hover {
-    color: #ff2c9c;
+    color: #ff2c9c !important;
     box-shadow: unset;
     background-color: transparent;
     border-color: #ff2c9c
 }
 
-.btn-primary:focus:before,
+
 .btn-primary:hover:before {
     width: 0
 }
@@ -1785,7 +1782,7 @@ a:hover {
 .default-btn-two {
     border: 2px solid #f9004d;
     background: #f9004d;
-    color: #fff;
+    color: #fff !important;
     border-radius: 6px;
     text-align: center;
     padding: 13px 30px;
@@ -1796,11 +1793,11 @@ a:hover {
 }
 
 
-.default-btn-two:focus,
+
 .default-btn-two:hover {
     border: 2px solid #000;
     background: #000;
-    color: #fff
+    color: #fff !important;
 }
 
 
