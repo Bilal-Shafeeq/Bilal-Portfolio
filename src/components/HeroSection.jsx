@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const HeroSection = () => {
     return (
@@ -20,9 +21,9 @@ const HeroSection = () => {
                                 <p
                                 data-aos="fade-in" data-aos-duration={1200} data-aos-delay={400}
                                 >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
-                                <a className="default-btn-two"
+                                <Link to="/" className="default-btn-two"
                                     data-aos="fade-in" data-aos-duration={1200} data-aos-delay={400} 
-                                    href="/contact/">Connect With Me</a>
+                                    >Connect With Me</Link>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12">

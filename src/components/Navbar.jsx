@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { FaAngleDown } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -25,9 +26,9 @@ const Navbar = () => {
       <div className={`navbar-area ${scrolling ? 'scrolled' : ''}`}>
         <nav className="navbar navbar-expand-md">
           <div className="container">
-            <a className="navbar-brand" href="/">
+            <Link to="/" className="navbar-brand">
               <img src="/images/logo.webp" alt="logo" />
-            </a>
+            </Link>
             <button onClick={() => setHamburgerList(!hamburgerList)} 
             className="navbar-toggler collapsed" type="button">
               <span className="icon-bar top-bar" />
@@ -37,153 +38,153 @@ const Navbar = () => {
             <div className={hamburgerList ? null : "collapse navbar-collapse" } id='okkk'>
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <a className="nav-link" href="/">Home <FaAngleDown /></a>
+                    <Link className="nav-link" to="/">Home <FaAngleDown /></Link>
                     <ul className="dropdown-menu mega-dropdown-menu">
                       <li className="nav-item">
-                        <a className="nav-link" href="/">Default Home</a>
-                        <a className="nav-link" href="#">Creative Agency</a>
-                        <a className="nav-link" href="#">IT Agency</a>
-                        <a className="nav-link" href="#">Marketing Agency</a>
-                        <a className="nav-link" href="#">Portfolio Agency</a>
-                        <a className="nav-link" href="#">Studio Agency</a>
-                        <a className="nav-link" href="#">Business Agency</a>
-                        <a className="nav-link" href="#">Startup Agency</a>
-                        <a className="nav-link" href="#">Software Startup 
+                        <Link className="nav-link" to="/">Default Home</Link>
+                        <Link className="nav-link" to="/">Creative Agency</Link>
+                        <Link className="nav-link" to="/">IT Agency</Link>
+                        <Link className="nav-link" to="/">Marketing Agency</Link>
+                        <Link className="nav-link" to="/">Portfolio Agency</Link>
+                        <Link className="nav-link" to="/">Studio Agency</Link>
+                        <Link className="nav-link" to="/">Business Agency</Link>
+                        <Link className="nav-link" to="/">Startup Agency</Link>
+                        <Link className="nav-link" to="/">Software Startup 
                         <span className="new">New</span>
-                        </a>
-                        <a className="nav-link" href="#">Digital Marketing 
+                        </Link>
+                        <Link to="/" className="nav-link" >Digital Marketing 
                         <span className="new">New</span>
-                        </a>
-                        <a className="nav-link" href="#">Business Consulting 
+                        </Link>
+                        <Link to="/" className="nav-link" >Business Consulting 
                         <span className="new">New</span>
-                        </a>
-                        <a className="nav-link" href="#">Freelancer Portfolio 
+                        </Link>
+                        <Link to="/" className="nav-link" >Freelancer Portfolio 
                         <span className="new">New</span>
-                        </a>
+                        </Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Default Home Two</a>
-                        <a className="nav-link" href="#">Creative Agency Two</a>
-                        <a className="nav-link" href="#">IT Agency Two</a>
-                        <a className="nav-link" href="#">Marketing Agency Two</a>
-                        <a className="nav-link" href="#">Portfolio Agency Two</a>
-                        <a className="nav-link" href="#">Studio Agency Two</a>
-                        <a className="nav-link" href="#">Business Agency Two</a>
-                        <a className="nav-link" href="#">Startup Agency Two</a>
-                        <a className="nav-link" href="#">App Showcase 
+                        <Link className="nav-link" to="/">Default Home Two</Link>
+                        <Link className="nav-link" to="/">Creative Agency Two</Link>
+                        <Link className="nav-link" to="/">IT Agency Two</Link>
+                        <Link className="nav-link" to="/">Marketing Agency Two</Link>
+                        <Link className="nav-link" to="/">Portfolio Agency Two</Link>
+                        <Link className="nav-link" to="/">Studio Agency Two</Link>
+                        <Link className="nav-link" to="/">Business Agency Two</Link>
+                        <Link className="nav-link" to="/">Startup Agency Two</Link>
+                        <Link className="nav-link" to="/">App Showcase 
                         <span className="new">New</span>
-                        </a>
-                        <a className="nav-link" href="#">Personal Portfolio 
+                        </Link>
+                        <Link className="nav-link" to="/">Personal Portfolio 
                         <span className="new">New</span>
-                        </a>
-                        <a className="nav-link" href="#">SaaS Startup 
+                        </Link>
+                        <Link className="nav-link" to="/">SaaS Startup 
                         <span className="new">New</span>
-                        </a>
-                        <a className="nav-link" href="#">Cyber Security Agency 
+                        </Link>
+                        <Link className="nav-link" to="/">Cyber Security Agency 
                         <span className="new">New</span>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Services <FaAngleDown />
-                    </a>
+                    <Link className="nav-link" to="/">Services <FaAngleDown />
+                    </Link>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Services Style 1</a>
+                        <Link className="nav-link" to="/">Services Style 1</Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Services Style 2</a>
+                        <Link className="nav-link" to="/">Services Style 2</Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Services Style 3</a>
+                        <Link className="nav-link" to="/">Services Style 3</Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Services Style 4</a>
+                        <Link className="nav-link" to="/">Services Style 4</Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Service Details</a>
+                        <Link className="nav-link" to="/">Service Details</Link>
                       </li>
                     </ul>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">About us</a>
+                    <Link className="nav-link" to="/">About us</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Portfolio <FaAngleDown /></a>
+                    <Link className="nav-link" to="/">Portfolio <FaAngleDown /></Link>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Portfolio</a>
+                        <Link className="nav-link" to="/">Portfolio</Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Portfolio Details</a>
+                        <Link className="nav-link" to="/">Portfolio Details</Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Portfolio Details 2</a>
+                        <Link className="nav-link" to="/">Portfolio Details 2</Link>
                       </li>
                     </ul>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Pages <FaAngleDown /></a>
+                    <Link className="nav-link" to="/">Pages <FaAngleDown /></Link>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <a className="nav-link" href="#">About</a>
+                        <Link className="nav-link" to="/">About</Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Services</a>
+                        <Link className="nav-link" to="/">Services</Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Services Details</a>
+                        <Link className="nav-link" to="/">Services Details</Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Portfolio</a>
+                        <Link className="nav-link" to="/">Portfolio</Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Portfolio Details</a>
+                        <Link className="nav-link" to="/">Portfolio Details</Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Team</a>
+                        <Link className="nav-link" to="/">Team</Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Pricing</a>
+                        <Link className="nav-link" to="/">Pricing</Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">FAQ</a>
+                        <Link className="nav-link" to="/">FAQ</Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">404 error</a>
+                        <Link className="nav-link" to="/">404 error</Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Coming Soon</a>
+                        <Link className="nav-link" to="/">Coming Soon</Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Contact</a>
+                        <Link className="nav-link" to="/">Contact</Link>
                       </li>
                     </ul>
                   </li>
                   <li className="nav-item">
-                  <a className="nav-link" href="#">Blog <FaAngleDown /></a>
+                  <Link className="nav-link" to="/">Blog <FaAngleDown /></Link>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Blog Grid</a>
+                        <Link className="nav-link" to="/">Blog Grid</Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Blog Right Sidebar</a>
+                        <Link className="nav-link" to="/">Blog Right Sidebar</Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Blog Left Sidebar</a>
+                        <Link className="nav-link" to="/">Blog Left Sidebar</Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">Blog Details</a>
+                        <Link className="nav-link" to="/">Blog Details</Link>
                       </li>
                     </ul>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Contact Us</a>
+                    <Link className="nav-link" to="/">Contact Us</Link>
                   </li>
                 </ul>
                 <div className="others-options">
-                  <a className="btn btn-primary" href="#">Get Started</a>
+                  <Link className="btn btn-primary" to="/">Get Started</Link>
                 </div>
               </div>
           </div>
