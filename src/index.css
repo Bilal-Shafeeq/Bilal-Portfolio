@@ -1272,6 +1272,7 @@ span.new {
     height: 30px;
     z-index: 1;
     color: #FF2B9C;
+    cursor: pointer;
 }
 
 .slick-client-previous-button {
@@ -1282,6 +1283,7 @@ span.new {
     height: 30px;
     z-index: 1;
     color: #FF2B9C;
+    cursor: pointer;
 }
 
 .slick-client-previous-button:hover,
@@ -1697,7 +1699,8 @@ a:hover {
 .btn-primary {
     color: #fff !important;
     background-color: #fff;
-    border: 1px solid #ff2c9c
+    border: 1px solid #ff2c9c;
+    cursor: pointer;
 }
 
 .btn-primary:before {

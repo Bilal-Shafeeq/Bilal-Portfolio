@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaChevronRight, FaCalendarAlt, FaRegUserCircle } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 
 const LatestBlogPost = () => {
@@ -19,17 +20,17 @@ const LatestBlogPost = () => {
                   <ul className="meta">
                     <li>
                       <FaCalendarAlt className='blog-post-icon' />
-                      Dec 02, 2022</li>
+                      Dec 02, 2024</li>
                     <li>
                       <FaRegUserCircle className='blog-post-icon' />
-                      <a href="#">Shelley Percy</a>
+                      <Link to="/">Shelley Percy</Link>
                     </li>
                   </ul>
-                  <h3><a href="#">Top 5 Tips To Create An Eye-Catching Website</a></h3>
+                  <h3><a to="/">Top 5 Tips To Create An Eye-Catching Website</a></h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                  <a className="link-btn" href="#">Read More
+                  <Link className="link-btn" to="/">Read More
                     <FaChevronRight className='latest-blog-right-angle' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -41,18 +42,18 @@ const LatestBlogPost = () => {
                   <ul className="meta">
                     <li>
                       <FaCalendarAlt className='blog-post-icon' />
-                      Dec 03, 2022</li>
+                      Dec 03, 2024</li>
                     <li>
                       <FaRegUserCircle className='blog-post-icon' />
-                      <a href="#">Stevn Smith</a></li>
+                      <Link to="/">Stevn Smith</Link></li>
                   </ul>
                   <h3>
-                    <a href="/blog-details/">Improve Marketing Techniques For Lead Generation</a>
+                    <Link to="/">Improve Marketing Techniques For Lead Generation</Link>
                   </h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                  <a className="link-btn" href="/blog-details/">Read More
+                  <Link className="link-btn" to="/">Read More
                     <FaChevronRight className='latest-blog-right-angle' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -64,18 +65,18 @@ const LatestBlogPost = () => {
                   <ul className="meta">
                     <li>
                       <FaCalendarAlt className='blog-post-icon' />
-                      Dec 04, 2022</li>
+                      Dec 04, 2024</li>
                     <li>
                       <FaRegUserCircle className='blog-post-icon' />
-                      <a href="#">David Warner</a></li>
+                      <Link to="/">David Warner</Link></li>
                   </ul>
                   <h3>
-                    <a href="#">Esit And A Case For Successful Fast Delivery</a>
+                    <Link to="/">Esit And A Case For Successful Fast Delivery</Link>
                   </h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                  <a className="link-btn" href="#">Read More
+                  <Link className="link-btn" to="/">Read More
                     <FaChevronRight className='latest-blog-right-angle' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

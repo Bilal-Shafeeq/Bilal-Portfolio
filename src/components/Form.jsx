@@ -45,7 +45,7 @@ const Form = () => {
                         </div>
                       </div>
                       <div className="col-lg-12 col-sm-12">
-                        <button type="submit" className="btn btn-primary">Send Message</button>
+                        <button type="submit" className="btn btn-primary btnClickEffect">Send Message</button>
                       </div>
                     </div>
                   </div>
