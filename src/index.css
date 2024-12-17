@@ -1323,6 +1323,7 @@ span.new {
     border-radius: 100px;
     padding: 10px;
     z-index: 1;
+    cursor: pointer;
 }
 
 .slick-previous-button {
@@ -1336,6 +1337,7 @@ span.new {
     border-radius: 100px;
     padding: 10px;
     z-index: 1;
+    cursor: pointer;
 }
 
 .slick-next-button:hover,
